@@ -9,8 +9,8 @@ import javafx.scene.paint.Color;
 public class Robot {
     private final ImageView robotView;
     private final int stepSize = 5; // Number of pixels to move per step
-    private double xPosition = 50;
-    private double yPosition = 50;
+    private double xPosition = 0;
+    private double yPosition = 265;
 
 
 
@@ -53,6 +53,8 @@ public class Robot {
         }
         robotView.setX(xPosition);
         robotView.setY(yPosition);
+        System.out.println(xPosition + ", " + yPosition);
+
 
     }
 

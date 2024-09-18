@@ -63,6 +63,7 @@ public class Car {
         }
         carView.setX(xPosition);
         carView.setY(yPosition);
+        System.out.println(xPosition + ", " + yPosition);
     }
 
 
